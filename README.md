@@ -2,6 +2,21 @@
 
 The Smart Waste Management System is a web application built to make waste collection more effective and transparent. It allows citizens to easily report garbage by uploading a photo and sharing their location, after which they can track the status of their request until it is completed. On the other side, municipal authorities can view these requests on a dashboard, see them on a map, assign workers for collection, and update the progress in real time. Along with handling requests, the system also provides insights through charts that show waste collection trends across different areas and includes an awareness section that shares tips on recycling and composting. This way, the platform connects people and authorities to keep cities cleaner and more sustainable.
 
+
+## How It Works
+
+Citizen logs in and submits a pickup request → adds details, image, and location.
+
+Request is stored in MongoDB.
+
+Admin views all requests on map/dashboard.
+
+Admin assigns pickup → request status updates.
+
+Citizen can track status in real-time.
+
+Completed requests contribute to analytics & reports.
+
 ## Features
 
 - **Citizen Portal:** Report garbage issues, request pickups, and track status.
